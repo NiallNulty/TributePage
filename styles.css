@@ -1,0 +1,72 @@
+body {
+    font-family: system-ui;
+    background: rgba(0,0,0,30%);
+    color: black;
+    text-align: center;
+  }
+  
+  #title-container {
+    background: rgb(51,51,51);
+    padding: 1px;
+  }
+  
+  #title {
+    font-size:50px;
+    color: white;
+  }
+  
+  #title-container p {
+    color: white;
+  }
+  
+  #img-div {
+    padding:20px;
+    justify-content:center;
+  }
+  
+  img {
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    color:white;
+    background: rgba(0,0,0,30%);
+    width:33%;
+    margin:auto;
+  }
+  
+  #tribute-info-container {
+    background: rgb(51,51,51);
+    padding: 1px;
+    color: white;
+  }
+  
+  .tribute-info-surrounding-text {
+    font-weight: 700;
+    font-size:20px;
+  }
+  
+  #tribute-info {
+    width:400px;
+    margin:auto;
+  }
+  
+  ul {
+      text-align: left;
+      list-style-position: inside;
+  }
+  
+  li {
+    padding:15px;
+  }
+  
+  .quote {
+    font-style: italic;
+  }
+  
+  a, a:hover, a:active, a:visited { 
+    color: white; 
+  }
